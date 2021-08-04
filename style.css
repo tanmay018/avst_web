@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(135, 141, 153);
+}
+
+#nav {
+  width: 100%;
+  min-height: 13vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+}
+
+#nav #links {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav > a {
+  text-decoration: none;
+  color: white;
+  font-family: "gilroy";
+  font-size: 15px;
+}
+
+#nav #links  a {
+  text-decoration: none;
+  color: white;
+  font-family: "gilroy";
+  font-size: 13px;
+}
+
+#avst {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px !important;
+}
+
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+#hero #ovrly {
+  z-index: 2;
+  margin-top: 20px;
+}
+
+#hero #ovrly h4 {
+  color: white;
+  font-family: "gilroy";
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+#hero #ovrly h2 {
+  font-family: "gilroy";
+  font-style: italic;
+  letter-spacing: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+#hero #ovrly h1 {
+  font-family: "Voyage";
+  font-size: 160px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-top: 12px;
+  font-weight: 500;
+  text-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+#hero #ovrly h3 {
+  font-family: "Voyage";
+  font-size: 150px;
+  color: #fff;
+  font-weight: 500;
+  text-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+}
+
+#hero img {
+  position: absolute;
+  bottom: 6%;
+  z-index: 1;
+  height: 62vh;
+  /* border-radius: 10px; */
+}
+
+#circle {
+  position: absolute;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+#txt h4 {
+  font-family: "Voyage";
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+#hztxt {
+  position: absolute;
+  bottom: 0;
+  font-size: 80px;
+  white-space: nowrap;
+  opacity: 0.3;
+  font-family: "Voyage";
+  display: flex;
+  width: 100%;
+  right: 22%;
+}
+
+
+#right {
+  color: #fff;
+  text-align: center;
+  width: 18%;
+  position: absolute;
+  bottom: 35%;
+  right: 10%;
+  font-family: "Voyage";
+}
+
+#right h1 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#right p {
+  opacity: 0.7;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+#second {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Voyage";
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+}
+
+#second h1 {
+  font-size: 90px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+#second p {
+  text-align: center;
+  width: 22%;
+}
+
+#second #link {
+  margin-top: 30px;
+  position: relative;
+}
+
+#link svg {
+  width: 200px;
+}
+
+#link a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: #fff;
+}
+
+.window {
+  position: absolute;
+  width: 130px;
+  height: 180px;
+}
+
+#elem1 {
+  top: 20%;
+  left: 14%;
+}
+
+#elem2 {
+  bottom: 25%;
+  right: 13%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: blanchedalmond;
+}
+
+#third {
+  position: relative;
+  font-family: "Voyage";
+  width: 100%;
+  height: 100vh;
+  background-color: #ffe699;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#third img {
+  position: absolute;
+  top: 19%;
+  left: 25%;
+  width: 15%;
+}
+
+#third h1 {
+  font-size: 120px;
+  z-index: 1;
+  font-weight: 500;
+}
+
+#third p {
+  margin-top: 50px;
+  width: 20%;
+  text-align: center;
+  font-weight: 900;
+  opacity: 0.6;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #ffe699;
+  padding: 12px 0;
+  text-align: center;
+  border-top: 0.3px solid rgba(0, 0, 0, 0.2);
+  font-family: "Voyage";
+}
+
+footer span {
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
